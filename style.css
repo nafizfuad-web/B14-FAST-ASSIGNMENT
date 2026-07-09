@@ -17,59 +17,62 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 0, 20px;
     background-color: #ffffff;
     color: white;
-}
 
-.logo h2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #111827;
-    line-height: 1;
-}
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+    .logo h2 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #111827;
+        line-height: 1;
+    }
 
-.logo img {
-    width: 28px;
-    height: 28px;
-}
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
 
-.logo p {
-    font-size: 13px;
-    color: #111827;
-    font-weight: 600;
-    line-height: 1;
-    margin-top: 2px;
-}
+    .logo img {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
 
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-}
+    .logo p {
+        font-size: 13px;
+        color: #111827;
+        font-weight: 600;
+        line-height: 1;
+        margin-top: 2px;
+    }
 
-.menu a {
-    text-decoration: none;
-    color: #6b7280;
-    font-size: 14px;
-    transition: 0.3s;
-}
+    .menu {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+    }
 
-.menu a:hover {
-    color: #2952ff;
-}
+    .menu a {
+        text-decoration: none;
+        color: #6b7280;
+        font-size: 14px;
+        transition: 0.3s;
+    }
 
-.btn {
-    padding: 22px 22px;
-    background-color: #2f55ff;
-    color: white;
-    border-radius: 8px;
-    font-size: 14px;
-    font-weight: 600;
-}
+    .menu a:hover {
+        color: #2952ff;
+    }
+
+    .btn {
+        padding: 12px 22px;
+        background-color: #2f55ff;
+        color: white;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-block;
+        text-decoration: none;
+    }
