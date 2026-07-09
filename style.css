@@ -1,0 +1,28 @@
+*{
+margin:0 ;
+padding:0 ;
+box-sizing:border-box ;
+font-family:Arial,sans-serif ;
+}
+.nayber{
+width:90% ;
+max-width: 1200px;
+margin: 20px,auto;
+display:flex ;
+justify-content:space-between ;
+align-items:center ;
+}
+.logo{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.logo img {
+width: 32px;
+}
+.logo p{
+    font-size: 14px;
+}
+.logo h2{
+    font-size: 18px;
+}
