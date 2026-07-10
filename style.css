@@ -94,30 +94,36 @@ body {
     color: white;
 }
 
+.hero-content {
+    text-align: center;
 
+}
 
 .hero-content h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 800;
 
 }
 
 .hero-content p {
-    width: 700px;
+    width: 600px;
     max-width: 90%;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.6;
+    margin: 20px auto 0;
+    margin-bottom: 50px;
 }
 
 .hero-content .btn {
-    padding: 12px 22px;
+    padding: 16px 36px;
     background-color: #2f55ff;
     color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 18px;
     font-weight: 600;
     display: inline-block;
     text-decoration: none;
+    margin-top: 50px;
 }
 
 .speaker {
@@ -190,7 +196,7 @@ body {
 
 .pricing-section {
     background-color: #f9fafa;
-    padding: 100px 0;
+    padding: 60px 0;
     width: 100%;
 }
 
@@ -203,9 +209,21 @@ body {
     margin: 0 auto !important;
 }
 
+.card-top {
+    flex: 1;
+}
 
+.pricing-section h2 {
+    margin-bottom: 2px;
+}
 
+.pricing-subtitle {
+    margin-bottom: 40px;
+}
 
+.pricing-section p {
+    margin-bottom: 40px;
+}
 
 
 
@@ -233,7 +251,7 @@ body {
     padding: 40px 32px;
     display: flex;
     flex-direction: column;
-    border: 1px solid #fif559;
+    border: 1px solid #f1f5f9;
     justify-content: space-between;
     min-height: 520px;
 }
