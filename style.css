@@ -20,7 +20,7 @@ body {
     padding: 0, 20px;
     background-color: #ffffff;
     color: white;
-
+}
 
     .logo h2 {
         font-size: 18px;
@@ -76,3 +76,48 @@ body {
         display: inline-block;
         text-decoration: none;
     }
+
+    .hero {
+
+         
+        background-image: url(assets/banner.jpg);
+            height: calc(100vh - 70px);
+
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+            color: white;
+        }
+
+    }
+
+    .hero-content h1 {
+        font-size: 70px;
+        font-weight: 800;
+
+    }
+
+    .hero-content p {
+        width: 700px;
+        max-width: 90%;
+        font-size: 22px;
+        line-height: 1.6;
+    }
+
+    .hero-content .btn {
+        padding: 12px 22px;
+        background-color: #2f55ff;
+        color: white;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 600;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    
