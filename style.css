@@ -188,13 +188,29 @@ body {
     gap: 25px;
 }
 
-.pricing section {
+.pricing-section {
     background-color: #f9fafa;
     padding: 100px 0;
     width: 100%;
 }
 
-.pricing section h2 {
+.pricing-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 24px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto !important;
+}
+
+
+
+
+
+
+
+
+.pricing-section h2 {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
