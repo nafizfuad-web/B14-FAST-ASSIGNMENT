@@ -22,102 +22,168 @@ body {
     color: white;
 }
 
-    .logo h2 {
-        font-size: 18px;
-        font-weight: 700;
-        color: #111827;
-        line-height: 1;
-    }
+.logo h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1;
+}
 
-    .logo {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
-    .logo img {
-        width: 30px;
-        height: 30px;
-        object-fit: contain;
-    }
+.logo img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
 
-    .logo p {
-        font-size: 13px;
-        color: #111827;
-        font-weight: 600;
-        line-height: 1;
-        margin-top: 2px;
-    }
+.logo p {
+    font-size: 13px;
+    color: #111827;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 2px;
+}
 
-    .menu {
-        list-style: none;
-        display: flex;
-        gap: 30px;
-    }
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
 
-    .menu a {
-        text-decoration: none;
-        color: #6b7280;
-        font-size: 14px;
-        transition: 0.3s;
-    }
+.menu a {
+    text-decoration: none;
+    color: #6b7280;
+    font-size: 14px;
+    transition: 0.3s;
+}
 
-    .menu a:hover {
-        color: #2952ff;
-    }
+.menu a:hover {
+    color: #2952ff;
+}
 
-    .btn {
-        padding: 12px 22px;
-        background-color: #2f55ff;
-        color: white;
-        border-radius: 8px;
-        font-size: 14px;
-        font-weight: 600;
-        display: inline-block;
-        text-decoration: none;
-    }
+.btn {
+    padding: 12px 22px;
+    background-color: #2f55ff;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+}
 
-    .hero {
+.hero {
 
-         
-        background-image: url(assets/banner.jpg);
-            height: calc(100vh - 70px);
 
-            background-size: cover;
-            background-position: center;
+    background-image: url(assets/banner.jpg);
+    height: calc(100vh - 70px);
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
+    background-size: cover;
+    background-position: center;
 
-            text-align: center;
-            color: white;
-        }
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    }
+    text-align: center;
+    color: white;
+}
 
-    .hero-content h1 {
-        font-size: 70px;
-        font-weight: 800;
 
-    }
 
-    .hero-content p {
-        width: 700px;
-        max-width: 90%;
-        font-size: 22px;
-        line-height: 1.6;
-    }
+.hero-content h1 {
+    font-size: 70px;
+    font-weight: 800;
 
-    .hero-content .btn {
-        padding: 12px 22px;
-        background-color: #2f55ff;
-        color: white;
-        border-radius: 8px;
-        font-size: 18px;
-        font-weight: 600;
-        display: inline-block;
-        text-decoration: none;
-    }
+}
 
-    
+.hero-content p {
+    width: 700px;
+    max-width: 90%;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.hero-content .btn {
+    padding: 12px 22px;
+    background-color: #2f55ff;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.speaker {
+    width: 90%;
+    margin: 80px auto;
+    max-width: 1200px;
+}
+
+.speaker h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.speakers-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+
+}
+
+.speaker-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, .04);
+    border: 1px solid #e5e7eb;
+}
+
+.speaker-info img {
+    width: 140px;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.speaker-info span {
+    color: #2563eb;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.speaker-info h3 {
+    margin: 4px 0 6px 0;
+    font-size: 24px;
+    color: #111827;
+    font-weight: 700;
+}
+
+.speaker-info p {
+
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.speaker-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
